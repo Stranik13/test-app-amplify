@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/song",
+            "lambdaFunction": "britneyspearsapi",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/song"
+        }
+    ],
+    "resourceName": "britneySongApi",
+    "apiName": "britneySongApi",
+    "functionArns": [
+        {
+            "lambdaFunction": "britneyspearsapi"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-britneyspearsapi-dev-133808-authRole",
+        "unAuthRoleName": "amplify-britneyspearsapi-dev-133808-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "britneyspearsapi",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

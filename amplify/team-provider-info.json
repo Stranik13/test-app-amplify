@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-britneyspearsapi-dev-133808-authRole",
+      "UnauthRoleArn": "arn:aws:iam::000691573582:role/amplify-britneyspearsapi-dev-133808-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::000691573582:role/amplify-britneyspearsapi-dev-133808-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-britneyspearsapi-dev-133808-deployment",
+      "UnauthRoleName": "amplify-britneyspearsapi-dev-133808-unauthRole",
+      "StackName": "amplify-britneyspearsapi-dev-133808",
+      "StackId": "arn:aws:cloudformation:us-east-1:000691573582:stack/amplify-britneyspearsapi-dev-133808/d46dbd60-76d7-11eb-b6f9-0ebb325b25bf",
+      "AmplifyAppId": "d7gnr8o7y7b3a"
+    },
+    "categories": {
+      "function": {
+        "britneyspearsapi": {
+          "deploymentBucketName": "amplify-britneyspearsapi-dev-133808-deployment",
+          "s3Key": "amplify-builds/britneyspearsapi-7268585673662b4a637a-build.zip"
+        }
+      }
+    }
+  }
+}
