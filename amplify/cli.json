@@ -5,7 +5,9 @@
       "validatetypenamereservedwords": true,
       "useexperimentalpipelinedtransformer": false,
       "enableiterativegsiupdates": false,
-      "secondarykeyasgsi": true
+      "secondarykeyasgsi": true,
+      "securityEnhancementNotification": false,
+      "showfieldauthnotification": false
     },
     "frontend-ios": {
       "enablexcodeintegration": true
@@ -18,6 +20,9 @@
     },
     "appsync": {
       "generategraphqlpermissions": true
+    },
+    "project": {
+      "overrides": true
     }
   }
 }

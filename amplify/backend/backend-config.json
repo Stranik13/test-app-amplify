@@ -3,6 +3,10 @@
     "britneySongs": {
       "service": "DynamoDB",
       "providerPlugin": "awscloudformation"
+    },
+    "britneySongStorage": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation"
     }
   },
   "function": {
@@ -24,6 +28,20 @@
   },
   "api": {
     "britneySongApi": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "britneyspearsapi",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    },
+    "britneySong2Api": {
       "service": "API Gateway",
       "providerPlugin": "awscloudformation",
       "dependsOn": [

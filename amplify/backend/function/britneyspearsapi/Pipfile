@@ -6,7 +6,6 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-src = {editable = true, path = "./src"}
 aws-wsgi = "*"
 boto3 = "*"
 flask = "*"
@@ -14,3 +13,7 @@ flask-cors = "*"
 
 [requires]
 python_version = "3.8"
+
+[packages.src]
+editable = true
+path = "./src"
